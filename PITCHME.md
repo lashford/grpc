@@ -56,7 +56,7 @@ Although SOAP allows you to define a structure and message for communication bet
 
 ## Get on the BUS
 
-Whilst gRPC is built on an efficient non-blocking implementation, gRPC is still `synchronous` in the sense that it requires both client and server to be available at the same time. A message bus breaks (de-couples) this link, this may be required and offers several advantages, you do however pay a price, namely latency!
+Whilst gRPC is built on an efficient non-blocking implementation, gRPC is still `synchronous` in the sense that it requires both client and server to be available at the same time.
 
 * Kafka
  * Decoupled Intergration
@@ -71,11 +71,10 @@ Imagine you have a magical highly performant function that is embedded in the Do
 
 ** gRPC to the rescue!!! **
 
-
 ---
 
 ## Demo Time
-
+```asci
              +---------+                  +--------+
 +-----+      |         |                  |        |
 |  C  |      |  Scala  |   gRPC (HTTP/2)  | Dotnet |
@@ -87,6 +86,6 @@ Imagine you have a magical highly performant function that is embedded in the Do
 |  E  |      |         |   HelloResponse  |        |
 +-----+      |         <------------------+        |
              +---------+                  +--------+
-
+```
 
 
