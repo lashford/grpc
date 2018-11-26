@@ -48,7 +48,7 @@ gRPC is a transport mechanism for request/response and (non-persistent) streamin
 
 ## Clean me up
 
-* Is this not just SOAP
+** Is this not just SOAP **
 
 Although SOAP allows you to define a structure and message for communication between Client / Server, as well as generate implementations in various langugaes, there is no ability to evolve the definition without creating new routes or wsdl versions. The Transport mechanism is also built upon TCP/IP compaired with HTTP/2 in gRPC.
 
@@ -59,9 +59,9 @@ Although SOAP allows you to define a structure and message for communication bet
 Whilst gRPC is built on an efficient non-blocking implementation, gRPC is still `synchronous` in the sense that it requires both client and server to be available at the same time. A message bus breaks (de-couples) this link, this may be required and offers several advantages, you do however pay a price, namely latency!
 
 * Kafka
-    Decoupled Intergration
-    Structured Messages using Protobuf
-    High latency
+ * Decoupled Intergration
+ * Structured Messages using Protobuf
+ * High latency
 
 ---
 
@@ -69,7 +69,7 @@ Whilst gRPC is built on an efficient non-blocking implementation, gRPC is still 
 
 Imagine you have a magical highly performant function that is embedded in the DotNet Framework and you need to expose that functionality to a set of services in your micro-service architecture. 
 
-gRPC to the rescue!!!
+** gRPC to the rescue!!! **
 
 
 ---
