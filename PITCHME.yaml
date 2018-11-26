@@ -5,6 +5,7 @@ layout : center
 logo : /images/60_innovations_logo.png
 theme : night
 highlight : ir-black
+footnote : Alex Lashford @lashford
 
 # Behavior
 transition : none
