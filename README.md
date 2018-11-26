@@ -6,6 +6,8 @@ Working Example for GRPC Lightning talk
 
 https://gitpitch.com/lashford/grpc/master
 
+diagram drawn in http://asciiflow.com/
+
 
 Credits:
 
