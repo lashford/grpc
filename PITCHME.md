@@ -5,8 +5,6 @@ What is good for ...
 
 ---
 
-## History
-
 ### What is it?
 
 gRPC is a transport mechanism for request/response and (non-persistent) streaming use cases. It is a schema-first RPC framework, where the protocol is declared in a protobuf IDL descriptor and requests / responses will be streamed over an HTTP/2 connection.
@@ -32,9 +30,9 @@ gRPC is a transport mechanism for request/response and (non-persistent) streamin
 
 ---
 
-## gRPC all the things
+## gRPC all the things!!!
 
-*  If there is a Well definied connection between internal services
+*  If there is a `Well` definied connection between internal services
 *  If you reqire a Structured way to serve data to a front-end
 *  To encapusulate a specialist bit of code in a different language
 
@@ -43,8 +41,8 @@ gRPC is a transport mechanism for request/response and (non-persistent) streamin
 ## Old News
 
 * CORBA
-** Can pass Object reference!!!!!!
-** Built on GIOP/IIOP - TCP based protocol
+  * Can pass Object reference!!!!!!
+  * Built on GIOP/IIOP - TCP based protocol
 
 ---
 
