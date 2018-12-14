@@ -5,7 +5,6 @@ version := "1.0"
 scalaVersion := "2.12.6"
 
 lazy val akkaVersion = "2.5.18"
-lazy val akkaGrpcVersion = "0.4"
 
 enablePlugins(AkkaGrpcPlugin)
 akkaGrpcGeneratedSources := Seq(AkkaGrpc.Client)

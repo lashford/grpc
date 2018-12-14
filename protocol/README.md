@@ -1,6 +1,6 @@
 # Protocol Definitions
 
-gRPC uses the Protobuf .proto file format to define your messages, services and some aspects of the code generation. Protobuf provides a schema for defiing communication between services which provides structure and improtantly schema evolution.
+gRPC uses the Protobuf .proto file format to define your messages, services and some aspects of the code generation. Protobuf provides a schema for defining communication between services which provides structure and improtantly schema evolution.
 
 You can define both `Messages` & `Services` within the Proto files, for example:
 
